@@ -1,0 +1,3 @@
+"""Compatibility entry point for the battery health model."""
+from src.train_multitarget_models import DEGRADATION_MODEL_PATH, train_models
+if __name__ == "__main__": train_models()
